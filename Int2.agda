@@ -19,7 +19,7 @@ isuc (- (suc n)) = - n
 
 -- given i, return i - 1.
 ipred : Int → Int
-ipred (+ (suc n)) = + n -- We know this isnt 1
+ipred (+ (suc n)) = + n
 ipred (+ zero) = - (suc zero)
 ipred (- n) = - (suc n)
 

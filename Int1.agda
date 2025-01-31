@@ -14,8 +14,7 @@ isuc (int a b) = int (suc a) b
 
 -- given i, return i - 1.
 ipred : Int → Int
-ipred (int (suc a) b) = int a b
-ipred (int zero b) = int zero (suc b)
+ipred (int a b) = int a (suc b)
 
 -- given i, return -i.
 ineg : Int → Int
